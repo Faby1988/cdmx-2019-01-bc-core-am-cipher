@@ -11,10 +11,12 @@ window.cipher = {
       let palabraNormal= String.fromCharCode(palabraAscii);
       nuevaPalabra+=palabraNormal;
      }
-     return nuevaPalabra
+     return nuevaPalabra;
   },
 
   decode:() =>{
 
   }
+
+
 };

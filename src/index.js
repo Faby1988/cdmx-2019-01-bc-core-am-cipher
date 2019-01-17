@@ -5,6 +5,8 @@ let palabraRecibida= document.getElementById("mensaje").value;
 
 let offsetRecibido = document.getElementById("desplazamiento").value;
 
-window.cipher.encode(offsetRecibido,palabraRecibida);
+//window.cipher.encode(offsetRecibido,palabraRecibida);
 
-});
+document.getElementById("mensajefinal").innerHTML=window.cipher.encode(offsetRecibido,palabraRecibida);
+
+}); 
