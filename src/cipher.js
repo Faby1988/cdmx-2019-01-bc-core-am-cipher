@@ -14,9 +14,17 @@ window.cipher = {
      return nuevaPalabra;
   },
 
-  decode:() =>{
-
-  }
+  decode: (offsetOtorgado,palabraOtorgada) => {
+    let i=0;
+    palabraOtorgada=palabraOtorgada.toUpperCase();
+    let newWord="";
+    for(i=0; i<palabraOtorgada.length; i++){
+      let asciiPalabra= (palabraOtorgada.charCodeAt(i) + 65 - parseInt(offsetOtorgado)) %26 + 65;
+      let normalPalabra= String.fromCharCode(asciiPalabra);
+      newWord+=normalPalabra;
+    }
+    return newWord;
+  },
 
 
 };
