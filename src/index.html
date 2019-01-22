@@ -2,37 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Necesaria para hacer nuestro sitio "responsive"-->
     <title>Caesar Cipher</title>
+    <!--Links Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"> <!--Aquí va el container-->
-      <div> <!--Aquí va un row/renglon-->
+    <div id="root" class="container"> <!--Aquí va el container-->
+      <div> <!--Aquí va un row/renglon1-->
         <h1>Bienvenido a Cipher Mensajeria</h1>
-      </div>
-      <div> <!--Row-->
-        <h3>Instrucciones</h3>
         <form>
           <h2>Introduce el número de offset que desees aplicar:<br></h2>
          <input id="desplazamiento" type="text">
+         <h2>Introduce tu palabra:<br></h2>
+        <input id="mensaje" type="text">
         </form>
-      </div>
-      <div><!--Row-->
-        <form>
-          <h2>Introduce tu palabra:<br></h2>
-          <input id="mensaje" type="text">
-        </form>
-      </div>
-      <br>
-      <div><!--Row-->
-        <button id="codificar"><h2>Codificar</h2></button>
+        <button id="codificar" class="btn btn-primary"><h2>Codificar</h2></button>
         <button id="decodificar"><h2>Decodificar</h2></button>
-      </div>
-      <div><!--Row-->
         <h2>Tu mensaje es:<br></h2>
         <p id="mensajefinal"> </p>
-      </div>
-    </div>
+      </div><!--Cierre de Row/renglón1-->
+    </div><!--Cierre de "container"-->
+    <!--Links Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
