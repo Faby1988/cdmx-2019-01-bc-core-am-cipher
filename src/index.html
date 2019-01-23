@@ -20,9 +20,9 @@
             <img src="./images/shield.png"> 
             <h5 class="alinear ">PasswordSecurity</h5>
         </div><!--cierre de col-4-->
-        <div class="col-8 izquierda arriba">
-            <h5 class="derecha alinear"><a href="#">Idioma</a></h5>
-            <h5 class="derecha alinear"><a href="#">Instrucciones</a></h5>
+        <div class="col-8 right arriba">
+            <h5 class="derecha alinear"><a href="#">Sign in</a></h5>
+            <h5 class="derecha alinear"><a href="#">Get started</a></h5>
             <img src="./images/menu-three-horizontal-lines-symbol.png">
         </div> <!--cierre de col-8-->
       </div><!--Fin de renglón1-->
@@ -33,19 +33,25 @@
         </div>
       </div> <!--Cierre row 2-->
       <div class="row abajo"><!--Inicio del row3-->
-        <form class="col-6 centrar izquierda">
+        <form class="col-6 right">
         <input id="mensaje" type="text" placeholder="Escribe tu palabra">
         </form>
         <form class="col-6">
         <input id="desplazamiento" type="text" placeholder="Desplazamiento">  
         </form>
       </div><!--Cierre de row3-->
-      <div>
-        <button id="codificar" class="btn btn-primary"><h2>Codificar</h2></button>
-        <button id="decodificar"><h2>Decodificar</h2></button>
-        <h2 class="white">Tu mensaje es:<br></h2>
+      <div><!--Row4-->
+        <div class="col-12 centrar abajo">
+        <button id="codificar" class="btn btn-success"><h2>Codificar</h2></button>
+        <button id="decodificar" class="btn btn-dark"><h2>Decodificar</h2></button>
+        </div><!--cierre col-12-->
+        <div class="col-12 centrar">
+          <div class="borde">
+        <h2>Tu mensaje es:<br></h2>
         <p id="mensajefinal"> </p>
-      </div><!--Cierre de Row/renglón2-->
+          </div>
+        </div>
+      </div><!--Cierre de Row/renglón4-->
     </div><!--Cierre de "container"-->
     <!--Links Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
