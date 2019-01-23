@@ -1,0 +1,71 @@
+*{
+    /*font-family: 'Unna', serif;*/
+    font-family: 'Changa One', cursive;
+
+} /*Tipografía*/
+
+.alinear{
+ display: inline-block; /* Hace que las cosas se pongan una a lado de la otra  */
+}
+
+
+a:link{
+    color: black; /*Para quitar el color azul que da por defaul el hipervinculo*/
+}
+
+.izquierda{
+    text-align: right; /* Hace una alineación a la izquierda*/
+}
+
+.fondo{
+    background-image:url(https://st.depositphotos.com/1152339/3184/i/950/depositphotos_31842905-stock-photo-safety-concept-opened-padlock-on.jpg);
+    background-size: cover;
+} /*Imagen de fondo*/
+
+.espacio{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}/*Espacio entre secciones*/
+
+.espacio2{
+    padding-top: 10%;
+    padding-bottom: 4%;
+}/*Espacio entre titulo*/
+
+.arriba{
+    padding-top: 5%;
+}/*Espacio en la parte de arriba*/
+
+.abajo{
+    padding-bottom: 5%;
+}/*Espacio en la parte de abajo*/
+
+.derecha{
+    padding-right: 8%;
+}/*Espacio de palabras*/
+
+.izquierda{
+    padding-left: 25%;
+} /*Espacio de palabra*/
+
+.transbox {
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  } /* transparencia de header*/
+
+
+.white{
+    color: #ffffff;
+}/*Color blanco de las letras*/
+
+.centrar{
+    text-align: center;
+}/*Para centrar texto*/
+
+.size{
+    font-size: 100px;
+}/*Tamaño del titulo*/
+
+
+

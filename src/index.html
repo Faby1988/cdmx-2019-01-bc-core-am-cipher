@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Necesaria para hacer nuestro sitio "responsive"-->
+    <!--Links de fuentes tipográficas-->
+    <link href="https://fonts.googleapis.com/css?family=Unna" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Unna" rel="stylesheet">
     <title>Caesar Cipher</title>
     <!--Links Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -10,20 +13,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root" class="container"> <!--Aquí va el container-->
-      <div> <!--Aquí va un row/renglon1-->
-        <h1>Bienvenido a Cipher Mensajeria</h1>
-        <form>
-          <h2>Introduce el número de offset que desees aplicar:<br></h2>
-         <input id="desplazamiento" type="text">
-         <h2>Introduce tu palabra:<br></h2>
-        <input id="mensaje" type="text">
+    <div id="root" class="container fondo"> <!--Aquí va el container-->
+      <header>
+      <div class="row transbox"><!--Inicio de renglón1-->
+        <div class="col-4 espacio"> <!--Logo-->
+            <img src="./images/shield.png"> 
+            <h5 class="alinear ">PasswordSecurity</h5>
+        </div><!--cierre de col-4-->
+        <div class="col-8 izquierda arriba">
+            <h5 class="derecha alinear"><a href="#">Idioma</a></h5>
+            <h5 class="derecha alinear"><a href="#">Instrucciones</a></h5>
+            <img src="./images/menu-three-horizontal-lines-symbol.png">
+        </div> <!--cierre de col-8-->
+      </div><!--Fin de renglón1-->
+      </header>
+      <div class="row white centrar"> <!--Aquí va un row/renglon2-->
+        <div class="col-12">
+        <h1 class="size espacio2 ">PasswordSecurity</h1>
+        </div>
+      </div> <!--Cierre row 2-->
+      <div class="row abajo"><!--Inicio del row3-->
+        <form class="col-6 centrar izquierda">
+        <input id="mensaje" type="text" placeholder="Escribe tu palabra">
         </form>
+        <form class="col-6">
+        <input id="desplazamiento" type="text" placeholder="Desplazamiento">  
+        </form>
+      </div><!--Cierre de row3-->
+      <div>
         <button id="codificar" class="btn btn-primary"><h2>Codificar</h2></button>
         <button id="decodificar"><h2>Decodificar</h2></button>
-        <h2>Tu mensaje es:<br></h2>
+        <h2 class="white">Tu mensaje es:<br></h2>
         <p id="mensajefinal"> </p>
-      </div><!--Cierre de Row/renglón1-->
+      </div><!--Cierre de Row/renglón2-->
     </div><!--Cierre de "container"-->
     <!--Links Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
