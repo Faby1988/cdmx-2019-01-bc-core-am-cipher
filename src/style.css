@@ -4,14 +4,16 @@
 
 } /*Tipografía*/
 
+.tamaño{
+    font-size: 30px;
+    color:rgb(13, 80, 13);
+    text-decoration: underline;
+}/*Tamaño de letra*/
+
 .alinear{
  display: inline-block; /* Hace que las cosas se pongan una a lado de la otra  */
 }
 
-
-a:link{
-    color: black; /*Para quitar el color azul que da por defaul el hipervinculo*/
-}
 
 .fondo{
     background-image:url(https://st.depositphotos.com/1152339/3184/i/950/depositphotos_31842905-stock-photo-safety-concept-opened-padlock-on.jpg);
@@ -38,8 +40,12 @@ a:link{
     padding-bottom: 5%;
 }/*Espacio en la parte de abajo*/
 
+.espaciobajo{
+    padding-bottom: 3%;
+}/*Espacio en la parte de abajo*/
+
 .derecha{
-    padding-right: 8%;
+    padding-right: 4%;
 }/*Espacio de palabras*/
 
 .transbox {
@@ -66,12 +72,17 @@ a:link{
 }/*Tamaño del titulo*/
 
 .borde{
-    /*border: rgb(5, 95, 25) 5px ridge;*/
-        padding: 50px 35px;
+        padding: 15px 35px ;
         border: rgb(9, 100, 21) 5px double;
         border-top-left-radius: 20px;
         border-bottom-right-radius: 20px;
-}
+}/*Borde de la caja que muestra texto final*/
 
+.negro{
+ background-color: black;
+}/*Fondo de color negro*/
 
+.blanco{
+    background-color: rgb(223, 219, 219);
+   }/*Fondo de color blanco*/
 
