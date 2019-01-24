@@ -14,10 +14,10 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 13 posiciones:
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-##Empezando
+## Empezando
 
 Este proyecto es una aplicación web; sirve para que el usuario pueda cifrar y descifrar una palabra indicando un desplazamiento específico de carácteres (_offset_).
-Acontinuación [aquí] (https://github.com/Faby1988/cdmx-2019-01-bc-core-am-cipher) puedes obtener una copia del proyecto en funcionamiento.
+Acontinuación ![aquí] (https://github.com/Faby1988/cdmx-2019-01-bc-core-am-cipher) puedes obtener una copia del proyecto en funcionamiento.
 
 La temática se situa en la necesidad de crear contraseñas más seguras para nuestras diferentes redes social usando una contraseña universal. Para más información acerca del proceso UX da click [aquí]()
 
