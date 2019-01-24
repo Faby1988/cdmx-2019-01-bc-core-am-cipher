@@ -4,16 +4,24 @@ En el ambito de la criptografía (donde se ocupan técnicas de cifrado o codific
 
 ![caeser-cipher](https://www.abc.es/Media/201007/05/cifrado_cesar--478x270.jpg)
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+Por ejemplo, si usamos un desplazamiento (_offset_) de 13 posiciones:
 
-- La letra A se cifra como D.
-- La palabra CASA se cifra como FDVD.
+- La letra A se cifra como N.
+- La palabra HOLA se cifra como UBYN.
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+- Alfabeto cifrado: N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
+
+##Empezando
+
+Este proyecto es una aplicación web; sirve para que el usuario pueda cifrar y descifrar una palabra indicando un desplazamiento específico de carácteres (_offset_).
+Acontinuación [aquí] (https://github.com/Faby1988/cdmx-2019-01-bc-core-am-cipher) puedes obtener una copia del proyecto en funcionamiento.
+
+La temática se situa en la necesidad de crear contraseñas más seguras para nuestras diferentes redes social usando una contraseña universal. Para más información acerca del proceso UX da click [aquí]()
+
+
 
 ## Resumen del proyecto
 
