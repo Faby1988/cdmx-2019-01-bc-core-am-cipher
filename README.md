@@ -17,7 +17,7 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 ## Empezando
 
 Este proyecto es una aplicación web; sirve para que el usuario pueda cifrar y descifrar una palabra indicando un desplazamiento específico de carácteres (_offset_).
-Acontinuación (https://github.com/Faby1988/cdmx-2019-01-bc-core-am-cipher) puedes obtener una copia del proyecto en funcionamiento.
+Acontinuación (https://faby1988.github.io/cdmx-2019-01-bc-core-am-cipher/src/) puedes obtener una copia del proyecto en funcionamiento.
 
 La temática se situa en la necesidad de crear contraseñas más seguras para nuestras diferentes redes social usando una contraseña universal. 
 
